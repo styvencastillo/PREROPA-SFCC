@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cuestionario de Tienda de Ropa</title>
+</head>
+<body>
+    <!-- Cabecera -->
+    <table width="100%" cellpadding="0" cellspacing="0">
+        <tr>
+            <td align="center">
+                <header>
+                    <!-- Logotipo de la Tienda -->
+                    <img src="../preprosesadores/imagenes/images.png" alt="Logotipo de la Tienda" width="150">
+                    <h1>¡Bienvenido a [FASHION STORE]!</h1>
+                    <p>Completa este breve cuestionario para ayudarnos a mejorar tu experiencia de compra.</p>
+                </header>
+            </td>
+        </tr>
+    </table>
+    
+    <!-- Barra de Navegación -->
+    <table width="100%" cellpadding="10" cellspacing="0" bgcolor="#34495e">
+        <tr>
+            <td align="center">
+                <nav>
+                    <ul style="list-style: none; padding: 0; margin: 0;">
+                        <tr>
+                            <td style="display: inline; margin-right: 15px;">
+                                <a href="index.html" style="text-decoration: none; color: #ecf0f1; font-weight: bold;">Inicio</a>
+                            </td>
+                            <td style="display: inline; margin-right: 15px;">
+                                <a href="productos.html" style="text-decoration: none; color: #ecf0f1; font-weight: bold;">Productos</a>
+                            </td>
+                            <td style="display: inline; margin-right: 15px;">
+                                <a href="ofertas.html" style="text-decoration: none; color: #ecf0f1; font-weight: bold;">Ofertas</a>
+                            </td>
+                            <td style="display: inline; margin-right: 15px;">
+                                <a href="contacto.html" style="text-decoration: none; color: #ecf0f1; font-weight: bold;">Contacto</a>
+                            </td>
+                            <td style="display: inline;">
+                                <a href="cuestionario.html" style="text-decoration: none; color: #ecf0f1; font-weight: bold;">Cuestionario</a>
+                            </td>
+                        </tr>
+                    </ul>
+                </nav>
+            </td>
+        </tr>
+    </table>
+
+    <!-- Texto Flotante -->
+    <marquee bgcolor="#3498db" style="color: #ecf0f1; padding: 10px; border-bottom: 1px solid #2980b9;">
+        ¡No te pierdas nuestras ofertas exclusivas! Compra ahora y obtén un 20% de descuento en toda la tienda.
+    </marquee>
+
+    <!-- Cuestionario con Imágenes a la Derecha -->
+    <table width="100%" cellpadding="5" cellspacing="0">
+        <tr>
+            <td width="85%">
+                <form action="#" method="post">
+                    <!-- Información Personal -->
+                    <fieldset>
+                        <legend>Información Personal</legend>
+                        <label>
+                            Nombre:
+                            <input type="text" name="nombre" required>
+                        </label>
+                        <br>
+                        <label>
+                            Correo Electrónico:
+                            <input type="email" name="correo" required>
+                        </label>
+                    </fieldset>
+
+                    <!-- Preferencias de Estilo -->
+                    <fieldset>
+                        <legend>¿Cuál es tu estilo de ropa favorito?</legend>
+                        <label>
+                            <input type="radio" name="estilo" value="casual"> Casual
+                        </label>
+                        <label>
+                            <input type="radio" name="estilo" value="elegante"> Elegante
+                        </label>
+                        <label>
+                            <input type="radio" name="estilo" value="deportivo"> Deportivo
+                        </label>
+                        <label>
+                            <input type="radio" name="estilo" value="formal"> Formal
+                        </label>
+                    </fieldset>
+
+                    <!-- Tallas y Productos Preferidos -->
+                    <fieldset>
+                        <legend>¿Cuál es tu talla y qué productos prefieres?</legend>
+                        <label>
+                            Talla:
+                            <select name="talla">
+                                <option value="s">S</option>
+                                <option value="m">M</option>
+                                <option value="l">L</option>
+                                <option value="xl">XL</option>
+                                <option value="xxl">XXL</option>
+                            </select>
+                        </label>
+                        <br>
+                        <label>
+                            <input type="checkbox" name="productos" value="camisas"> Camisas
+                        </label>
+                        <label>
+                            <input type="checkbox" name="productos" value="pantalones"> Pantalones
+                        </label>
+                        <label>
+                            <input type="checkbox" name="productos" value="chaquetas"> Chaquetas
+                        </label>
+                    </fieldset>
+
+                    <!-- Frecuencia de Compra y Comentarios -->
+                    <fieldset>
+                        <legend>Frecuencia de Compra y Comentarios</legend>
+                        <label>
+                            ¿Con qué frecuencia compras ropa?
+                            <select name="frecuencia">
+                                <option value="semanal">Semanal</option>
+                                <option value="mensual">Mensual</option>
+                                <option value="trimestral">Trimestral</option>
+                                <option value="anual">Anual</option>
+                            </select>
+                        </label>
+                        <br>
+                        <label>
+                            Comentarios Adicionales:
+                            <textarea name="comentarios_adicionales" rows="4" cols="50"></textarea>
+                        </label>
+                    </fieldset>
+
+                    <!-- Botón de Envío -->
+                    <button type="submit">Enviar</button>
+                </form>
+            </td>
+            <td width="30%">
+                <!-- Imágenes a la Derecha del Cuestionario -->
+                <img src="../preprosesadores/imagenes/ropa.jpeg" alt="Imagen 1" width="100%">
+                <img src="../preprosesadores/imagenes/descarga.jpeg" alt="Imagen 2" width="100%">
+                <img src="../preprosesadores/imagenes/ROPA 2.jpeg" alt="Imagen 3" width="100%">
+                <img src="../preprosesadores/imagenes/ROPA 3.jpeg" alt="Imagen 4" width="100%">
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
